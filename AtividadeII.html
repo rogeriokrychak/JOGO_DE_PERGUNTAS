@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="Graphicrating-Koloria-Windows-8.ico" type="image/x-icon">
+    <title>ATIVIDADE II - Atividade: Form -Php</title>
+    <style media="screen">
+      body {
+        background-color: rgb(106, 106, 158);
+        color: black;
+      }
+      h2 {
+        font-size: 18px;
+        color: black;
+      }
+      input {
+        font-size: 18px;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>Atividade II : Form – Php</h1>
+      <h2>
+        1)Construa um ou mais formulários em HTML que recolha respostas do usuário com relação a determinadas perguntas, e um código PHP que receba essas respostas e seja capaz de concluir qual dentre os animais seguintes foi escolhido. Animais possíveis: leão, cavalo, homem, macaco, morcego, baleia, avestruz, pingüim, pato, águia, tartaruga, crocodilo e cobra. Carregue a imagem do animal na resposta final.
+      </h2><br>
+      <h2>
+        Exemplo:<br>
+        É Mamífero? Sim<br>
+        É quadrúpede? Sim<br>
+        É Carnívoro? Não<br>
+        É Herbívoro? Sim<br>
+      </h2>
+      <h1>Qual é o seu animal?</h1>
+      <h2>O seu animal é Mamífero?</h2>
+      <form action="res1.php" method="POST">
+        <input type="radio" name="op" value="SIM">SIM<br>
+        <input type="radio" name="op" value="NÃO">NÃO<br>
+        <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
