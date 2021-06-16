@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(106, 106, 158);
+    color: black;
+  }
+  h2 {
+    font-size: 18px;
+    color: black;
+  }
+  input {
+    font-size: 18px;
+  }
+  h1 {
+    text-align: center;
+  }
+  img {
+    width: 290px;
+    height: 240px;
+  }
+  
